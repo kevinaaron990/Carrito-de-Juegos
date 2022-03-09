@@ -13,3 +13,70 @@ header{
 .navigation{
     flex-grow: 1;
 }
+.btn-carrito{
+    border: none;
+    background-color: #397eff;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: #ffff;
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+}
+.cant--carrito{
+    padding: 1rem;
+    margin: 5px;
+    border: 3px solid #0000;
+    border-radius: 1rem;
+}
+.item{
+    text-decoration: none;
+    margin-left: 2rem;
+}
+
+#main{
+    border: 1px solid #0000;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.sidebar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    position: absolute;
+    box-shadow: 1rem 1rem 1.3rem #86e286;
+    flex-direction: column;
+    background-color: #397eff;
+    border: 2px solid #0000;
+    width: 30%;
+    visibility: hidden;
+    left: 70%;
+}
+
+.active{
+    visibility: visible;
+}
+.caja{
+    margin: auto;
+}
+.caja--img{
+    width: 180px;
+}
+.caja--datos{
+    text-align: center;
+}
+
+/* cards de carrito */
+.caja--carrito{
+    width: 200px;
+    text-align: center;
+}
+
+.caja-carrito-img{
+    width: 150px;
+}
+
+.caja--carrito--datos{
+    border: 1px solid red;
+    color: white;
+    font-weight: bold;
+}
